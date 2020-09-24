@@ -548,7 +548,7 @@ class WCMP_Settings_Data
             [
                 "name"      => WCMP_Settings::SETTING_CARRIER_DELIVERY_DAYS_WINDOW,
                 "condition" => WCMP_Settings::SETTING_CARRIER_DELIVERY_ENABLED,
-                "label"     => __("Show delivery date", "woocommerce-myparcel"),
+                "label"     => __("Number of days you wish to show", "woocommerce-myparcel"),
                 "type"      => "number",
                 "max"       => 14,
                 "default"   => self::ENABLED,
